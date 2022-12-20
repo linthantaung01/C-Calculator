@@ -1,0 +1,11 @@
+C:\Users\Lin Thant Aung\source\repos\TestBox\CalculatorPrj\obj\Debug\CalculatorPrj.csproj.AssemblyReference.cache
+C:\Users\Lin Thant Aung\source\repos\TestBox\CalculatorPrj\obj\Debug\CalculatorPrj.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lin Thant Aung\source\repos\TestBox\CalculatorPrj\obj\Debug\CalculatorPrj.Form1.resources
+C:\Users\Lin Thant Aung\source\repos\TestBox\CalculatorPrj\obj\Debug\CalculatorPrj.Properties.Resources.resources
+C:\Users\Lin Thant Aung\source\repos\TestBox\CalculatorPrj\obj\Debug\CalculatorPrj.csproj.GenerateResource.cache
+C:\Users\Lin Thant Aung\source\repos\TestBox\CalculatorPrj\obj\Debug\CalculatorPrj.csproj.CoreCompileInputs.cache
+C:\Users\Lin Thant Aung\source\repos\TestBox\CalculatorPrj\bin\Debug\CalculatorPrj.exe.config
+C:\Users\Lin Thant Aung\source\repos\TestBox\CalculatorPrj\bin\Debug\CalculatorPrj.exe
+C:\Users\Lin Thant Aung\source\repos\TestBox\CalculatorPrj\bin\Debug\CalculatorPrj.pdb
+C:\Users\Lin Thant Aung\source\repos\TestBox\CalculatorPrj\obj\Debug\CalculatorPrj.exe
+C:\Users\Lin Thant Aung\source\repos\TestBox\CalculatorPrj\obj\Debug\CalculatorPrj.pdb
