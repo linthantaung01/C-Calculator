@@ -19,14 +19,14 @@ namespace CalculatorPrj
             InitializeComponent();
         }
         
-        float ans,perans = 0; 
+        double ans,perans = 0; 
         
-        List<float> number = new List<float>();
+        List<double> number = new List<double>();
         List<string> op = new List<string>();
 
         private void checkZero()
         {
-            if (txtOutput.Text != "" && float.Parse(txtOutput.Text) == 0)
+            if (txtOutput.Text != "" && double.Parse(txtOutput.Text) == 0)
             {
                 txtOutput.Text = "";
             }
@@ -98,7 +98,7 @@ namespace CalculatorPrj
         }
         private void btnPlus_Click(object sender, EventArgs e)
         {
-            number.Add(float.Parse(txtOutput.Text)); //Add number List array[0]  
+            number.Add(double.Parse(txtOutput.Text)); //Add number List array[0]  
             op.Add("+"); //Add operation
             txtOutput.Clear();
             txtOutput.Focus();
@@ -107,7 +107,7 @@ namespace CalculatorPrj
 
         private void btnMinus_Click(object sender, EventArgs e)
         {
-            number.Add(float.Parse(txtOutput.Text));
+            number.Add(double.Parse(txtOutput.Text));
             op.Add("-");
             txtOutput.Clear();
             txtOutput.Focus();
@@ -116,7 +116,7 @@ namespace CalculatorPrj
 
         private void btnMulti_Click(object sender, EventArgs e)
         {
-            number.Add(float.Parse(txtOutput.Text));
+            number.Add(double.Parse(txtOutput.Text));
             op.Add("x");
             txtOutput.Clear();
             txtOutput.Focus();
@@ -124,14 +124,14 @@ namespace CalculatorPrj
 
         private void btnDivide_Click(object sender, EventArgs e)
         {
-            number.Add(float.Parse(txtOutput.Text));
+            number.Add(double.Parse(txtOutput.Text));
             op.Add("÷");
             txtOutput.Clear();
             txtOutput.Focus();
         }
         private void button11_Click(object sender, EventArgs e)
         {
-            float percent = float.Parse(txtOutput.Text); 
+            double percent = double.Parse(txtOutput.Text); 
             
 
             if (number.Count == 1)
@@ -201,7 +201,7 @@ namespace CalculatorPrj
 
         private void btnEqual_Click(object sender, EventArgs e)
         { 
-            number.Add(float.Parse(txtOutput.Text)); 
+            number.Add(double.Parse(txtOutput.Text)); 
             compute();
             txtOutput.Text = ans.ToString();           
         }
@@ -222,13 +222,13 @@ namespace CalculatorPrj
             txtOutput.Text = "0";
             ans = 0;
             perans = 0;
-            number = new List<float>();
+            number = new List<double>();
             op = new List<string>();
             
         }
 
    
-        public float compute()
+        public double compute()
         {
             ans = number[0];
             for (int i = 0; i < op.Count; i++)
